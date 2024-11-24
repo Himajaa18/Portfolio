@@ -1,0 +1,390 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    color: #80e4e9;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav h1 {
+    display: inline;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header .btn {
+    background: #ffd700;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+header .btn:hover {
+    background: #e6c200;
+}
+
+/* Section Styles */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.bg-light {
+    background: #f4f4f9;
+}
+
+/* About Section */
+#about p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+#about .btn {
+    background-color: #4facfe;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#about .btn:hover {
+    background-color: #00f2fe;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+}
+
+.skill i {
+    font-size: 3rem;
+    color: #ffd700;
+}
+
+.skill h4 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+.skill p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Projects Section */
+.projects-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+.project-link {
+    display: inline-block;
+    background: #4facfe;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.project-link:hover {
+    background: #00f2fe;
+}
+
+/* Experience Section */
+.experience-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.experience-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.experience-card strong {
+    color: #4facfe;
+}
+
+/* Achievements Section */
+.achievements-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.achievement-card {
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.achievement-card h4 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.achievement-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Extracurricular Activities Section */
+.activities-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.activity-card {
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.activity-card h4 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.activity-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#contact a {
+    color: #4facfe;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #00f2fe;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+/* Achievements Section */
+#achievements .achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.achievement-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-card h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.achievement-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Extracurricular Activities Section */
+#extracurriculars .activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.activity-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.activity-card h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.activity-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+#experience .experience-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#experience .experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+#experience .experience-card h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+#experience .experience-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
